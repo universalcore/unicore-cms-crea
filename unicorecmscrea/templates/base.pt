@@ -24,20 +24,17 @@
           </span>
           <a href="/locale/change/" tal:condition="len(view.get_available_languages)>2" class="lang-change">&hellip;</a>
         </div>
-        <div metal:use-macro="view.logo_template" tal:omit-tag="" tal:define="img_attrs view.get_logo_attributes(default_image_src=request.static_url('cms:static/img/logo_x2.png'))">
+        <div metal:use-macro="view.logo_template" tal:omit-tag="" tal:define="img_attrs view.get_logo_attributes(default_image_src=request.static_url('cms:static/img/logo_x2.png'), width=160)">
         </div>
         <div class="clr"></div>
     </div>
-    <div class="push"></div><!--/PUSH-->
-    <div id="submenu" metal:define-slot="nav">
-        <a href="/" i18n:translate="Home">Home</a>
-        <span tal:repeat="cat view.get_top_nav">
-            | <a href="/content/list/${cat.uuid}/">${cat.title}</a>
-        </span>
-    </div>
-
     <div id="content">
         <div metal:define-slot="content"></div>
+    </div>
+    <div class="footer">
+        <div class="pagination">
+            <a href="/terms/" class="terms" i18n:translate="Terms">Terms</a>
+        </div>
     </div>
     <div id="base"><img alt='' src="/static/img/base.jpg" /></div><!--/BASE-->
 </body>

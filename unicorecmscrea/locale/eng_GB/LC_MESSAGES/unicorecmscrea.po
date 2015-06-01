@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2015-06-01 13:28+0200\n"
+"POT-Creation-Date: 2015-06-01 20:01+0200\n"
 "PO-Revision-Date: 2015-06-01 13:26+0200\n"
 "Last-Translator: tonym <tonym@tonym-lap>\n"
 "Language-Team: Language eng\n"
@@ -15,59 +15,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Lingua 3.10\n"
 
-#. Default: What Is The Girl Effect
-#: unicorecmscrea/templates/home.pt:20
-msgid "What Is The Girl Effect"
-msgstr ""
-
-#. Default: Learn more about The Girl Effect
-#: unicorecmscrea/templates/home.pt:23
-msgid "Learn more about The Girl Effect"
-msgstr ""
-
-#. Default: And spread the word
-#: unicorecmscrea/templates/home.pt:24
-msgid "And spread the word"
+#. Default: Bienvenida
+#: unicorecmscrea/templates/home.pt:6
+msgid "Bienvenida"
 msgstr ""
 
 #. Default: Latest
-#: unicorecmscrea/templates/home.pt:30
+#: unicorecmscrea/templates/home.pt:25
 msgid "Latest"
 msgstr ""
 
 #. Default: More
-#: unicorecmscrea/templates/home.pt:61
+#: unicorecmscrea/templates/home.pt:56
 msgid "More"
-msgstr ""
-
-#. Default: The Girl Declaration
-#: unicorecmscrea/templates/home.pt:66
-msgid "The Girl Declaration"
-msgstr ""
-
-#. Default: Read It Now.
-#: unicorecmscrea/templates/home.pt:69
-msgid "Read It Now."
-msgstr ""
-
-#. Default: And share it with other girls
-#: unicorecmscrea/templates/home.pt:70
-msgid "And share it with other girls"
-msgstr ""
-
-#. Default: Contact
-#: unicorecmscrea/templates/home.pt:73
-msgid "Contact"
-msgstr ""
-
-#. Default: Terms &amp; Conditions
-#: unicorecmscrea/templates/home.pt:73
-msgid "Terms &amp; Conditions"
-msgstr ""
-
-#. Default: Tips on Use
-#: unicorecmscrea/templates/home.pt:73
-msgid "Tips on Use"
 msgstr ""
 
 #. Default: 1 search result for:
@@ -125,7 +85,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#. Default: Home
-#: unicorecmscrea/templates/base.pt:33
-msgid "Home"
+#. Default: Terms
+#: unicorecmscrea/templates/base.pt:36
+msgid "Terms"
 msgstr ""

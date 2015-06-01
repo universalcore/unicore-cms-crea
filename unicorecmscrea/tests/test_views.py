@@ -61,10 +61,10 @@ class TestViews(UnicoreTestCase):
 
         resp = self.app.get('/', status=200)
         self.assertTrue(
-            '<a href="/about/">Learn more about The Girl Effect</a>'
+            '<a href="/about/">Learn more about Crea</a>'
             in resp.body)
         self.assertTrue(
-            '<img alt="Welcome to the Girl Effect" '
+            '<img alt="Welcome to Crea" '
             'src="http://some.site.com/VNlJN07VKnfaB6k1imziAts4n0o='
             '/320x0/some-uuid"/>' in
             resp.body)

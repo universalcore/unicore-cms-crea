@@ -12,10 +12,10 @@
             <div id="banner">
                 <a href="/declaration/">
                     <condition tal:omit-tag="" tal:condition="localisation and localisation.image_host and localisation.image">
-                        <img alt="Welcome to the Girl Effect" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
+                        <img alt="Welcome to Crea" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
                     </condition>
                     <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
-                        <img alt='Welcome to the Girl Effect' src="/static/img/banner.jpg" />
+                        <img alt='Welcome to Crea' src="/static/img/banner.jpg" />
                     </condition>
                 </a>
             </div>

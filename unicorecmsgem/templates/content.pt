@@ -1,0 +1,26 @@
+<div metal:use-macro="view.global_template">
+    <div class="girl-heroes">
+        <div metal:fill-slot="content" class="articles">
+
+             <div class="detail">
+
+                <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
+                     <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                        <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 320)}"/>
+                    </condition>
+                    <div class="h2">${page.title}</div>
+                    <div class="meta">${page.description}</div>
+                </div>
+                <div class="clr"></div>
+
+                <p>${structure:content}</p>
+                <div class="date">${view.format_date(page.created_at)}</div>
+                <div class="items">
+                    <div class="item" tal:repeat="linked_page linked_pages">
+                        <a href="/content/detail/${linked_page.uuid}/">&raquo; ${linked_page.title}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

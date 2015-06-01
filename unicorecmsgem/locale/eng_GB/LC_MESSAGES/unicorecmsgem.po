@@ -1,0 +1,136 @@
+#
+# Language eng translations for PACKAGE package
+# This file is distributed under the same license as the PACKAGE package.
+# TonyM <tonym@localhost>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE 1.0\n"
+"POT-Creation-Date: 2015-03-05 07:48+0200\n"
+"PO-Revision-Date: 2014-09-29 22:20+0200\n"
+"Last-Translator: TonyM <tonym@localhost>\n"
+"Language-Team: Language eng\n"
+"Language: eng_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Default: What Is The Girl Effect
+#: unicorecmsgem/templates/home.pt:33
+msgid "What Is The Girl Effect"
+msgstr ""
+
+#. Default: Learn more about The Girl Effect
+#: unicorecmsgem/templates/home.pt:40
+msgid "Learn more about The Girl Effect"
+msgstr ""
+
+#. Default: And spread the word
+#: unicorecmsgem/templates/home.pt:43
+msgid "And spread the word"
+msgstr ""
+
+#. Default: Latest
+#: unicorecmsgem/templates/home.pt:55
+msgid "Latest"
+msgstr ""
+
+#. Default: More
+#: unicorecmsgem/templates/home.pt:114
+msgid "More"
+msgstr ""
+
+#. Default: The Girl Declaration
+#: unicorecmsgem/templates/home.pt:125
+msgid "The Girl Declaration"
+msgstr ""
+
+#. Default: Read It Now.
+#: unicorecmsgem/templates/home.pt:132
+msgid "Read It Now."
+msgstr ""
+
+#. Default: And share it with other girls
+#: unicorecmsgem/templates/home.pt:135
+msgid "And share it with other girls"
+msgstr ""
+
+#. Default: Contact
+#: unicorecmsgem/templates/home.pt:142
+msgid "Contact"
+msgstr ""
+
+#. Default: Terms &amp; Conditions
+#: unicorecmsgem/templates/home.pt:144
+msgid "Terms &amp; Conditions"
+msgstr ""
+
+#. Default: Tips on Use
+#: unicorecmsgem/templates/home.pt:146
+msgid "Tips on Use"
+msgstr ""
+
+#. Default: 1 search result for:
+#: unicorecmsgem/templates/search_results.pt:9
+msgid "1 search result for:"
+msgstr ""
+
+#. Default: search results for:
+#: unicorecmsgem/templates/search_results.pt:14
+msgid "search results for:"
+msgstr ""
+
+#. Default: in
+#: unicorecmsgem/templates/search_results.pt:30
+msgid "in"
+msgstr ""
+
+#. Default: No results found for
+#: unicorecmsgem/templates/search_results.pt:41
+msgid "No results found for"
+msgstr ""
+
+#. Default: No results found!
+#: unicorecmsgem/templates/search_results.pt:46
+msgid "No results found!"
+msgstr ""
+
+#. Default: We can't find that page, sorry.
+#: unicorecmsgem/templates/404.pt:7
+msgid "We can't find that page, sorry."
+msgstr ""
+
+#. Default: Home Page
+#. Used in sentence: "Go to the <dynamic element>"
+#: unicorecmsgem/templates/404.pt:13
+msgid "Home Page"
+msgstr ""
+
+#. Default: Go to the <dynamic element>
+#: unicorecmsgem/templates/404.pt:11
+msgid "Go to the"
+msgstr ""
+
+#: unicorecmsgem/templates/search_box.pt:9
+msgid "Search"
+msgstr ""
+
+#. Default: Previous
+#: unicorecmsgem/templates/paginator.pt:9
+msgid "Previous"
+msgstr ""
+
+#. Default: Next
+#: unicorecmsgem/templates/paginator.pt:34
+msgid "Next"
+msgstr ""
+
+#. Default: Home
+#: unicorecmsgem/templates/base.pt:50
+msgid "Home"
+msgstr ""
+
+#~ msgid "Title of story is placed here"
+#~ msgstr "Learn more about The Girl Effect"
+
+#~ msgid "Sub-heading comes here"
+#~ msgstr "And spread the word"

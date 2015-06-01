@@ -1,3 +1,3 @@
-unicore-cms-gem
-===============
-GEM Pyramid Frontend Site for Universal Core
+unicore-cms-crea
+================
+Crea Pyramid Frontend Site for Universal Core

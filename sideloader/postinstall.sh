@@ -4,7 +4,7 @@ cd "${INSTALLDIR}/${REPO}/"
 
 $pip install -e "${INSTALLDIR}/${REPO}/"
 
-ini_files="gem_*.ini"
+ini_files="crea_*.ini"
 
 for ini in $ini_files
 do

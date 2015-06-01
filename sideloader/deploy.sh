@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -a unicore-cms-gem ./build/
+cp -a unicore-cms-crea ./build/

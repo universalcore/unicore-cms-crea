@@ -33,6 +33,7 @@
     </div>
     <div class="footer">
         <div class="pagination">
+            <a href="/contact/" class="contact" i18n:translate="Contact">Contact</a> |
             <a href="/terms/" class="terms" i18n:translate="Terms">Terms</a>
         </div>
     </div>

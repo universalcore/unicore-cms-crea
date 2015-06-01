@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2015-06-01 20:01+0200\n"
+"POT-Creation-Date: 2015-06-01 20:13+0200\n"
 "PO-Revision-Date: 2015-06-01 13:26+0200\n"
 "Last-Translator: tonym <tonym@tonym-lap>\n"
 "Language-Team: Language eng\n"
@@ -85,7 +85,12 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#. Default: Terms
+#. Default: Contact
 #: unicorecmscrea/templates/base.pt:36
+msgid "Contact"
+msgstr ""
+
+#. Default: Terms
+#: unicorecmscrea/templates/base.pt:37
 msgid "Terms"
 msgstr ""

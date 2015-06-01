@@ -56,16 +56,5 @@
                 <a href="/content/list/${cat.uuid}/"><span i18n:translate="More">More</span> ${cat.title}</a>
             </div>
         </div>
-
-        <div tal:define="contact view.get_page(None, 'contact', view.locale)" tal:omit-tag="">
-        <div class="declaration" tal:condition="contact">
-            <div class="h1"><a href="/contact/">${contact.title}</a></div>
-            <div class="listing">
-                <div class="h2">${contact.description}</div>
-                <p>${structure:contact.content}</p>
-                <div class="clr"></div>
-            </div>
-        </div><!--/declaration-->
-        </div>
     </div>
 </div>

@@ -4,7 +4,7 @@ mkdir -p unicorecmscrea/locale
 
 pot-create -o unicorecmscrea/locale/unicorecmscrea.pot unicorecmscrea/
 
-declare -a arr=("eng_GB")
+declare -a arr=("eng_GB" "spa_ES")
 
 for lang in "${arr[@]}"
 do
